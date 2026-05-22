@@ -13,9 +13,22 @@ Install this plugin in the same environment as Datasette.
 ```bash
 datasette install datasette-fixtures
 ```
+
 ## Usage
 
-Usage instructions go here.
+Install the plugin in the same environment as Datasette and it will create a
+named in-memory database called `fixtures` on startup.
+
+```bash
+datasette
+```
+Or to try it with `uvx` without first installing Datasette:
+
+```bash
+uvx --with datasette-fixtures datasette
+```
+
+The Datasette fixtures database will then be available at `/fixtures`.
 
 ## Development
 
