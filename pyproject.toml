@@ -1,6 +1,6 @@
 [project]
 name = "datasette-fixtures"
-version = "0.1"
+version = "0.1a0"
 description = "Make the Datasette fixtures database available"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]
